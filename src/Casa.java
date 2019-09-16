@@ -1,26 +1,58 @@
 
 public class Casa {
     
-    String cor;
-    int porta1, porta2, porta3;
+    private String cor;
+    private int porta1, porta2, porta3;
+    
+    public String getCor(){
+        return this.cor;
+    }
+    
+    public void setCor(String c) {
+        this.cor = c;
+    }
+    
+    public int getPorta1(){
+        return this.porta1;
+    }
+    
+    public void setPorta1(int p) {
+        this.porta1 = p;
+    }
+    
+    public int getPorta2(){
+        return this.porta2;
+    }
+    
+    public void setPorta2(int d) {
+        this.porta2 = d;
+    }
+    
+    public int getPorta3(){
+        return this.porta3;
+    }
+    
+    public void setPorta3(int o) {
+        this.porta3 = o;
+    }
         
-    void pinta(String s){
+    public void pinta(String s){
         
         cor = s;
     }
     
-    int aberta(){
+    public int aberta(){
         
         return 1;
     }
     
-    int fechada(){
+    public int fechada(){
         
         return 0;
     }
     
    
-    int quantasPortasEstaoAbertas(){
+    public int quantasPortasEstaoAbertas(){
         int soma = this.porta1 + this.porta2 + this.porta3;
         if(soma == 0){
             System.out.println("Todas as portas estão fechadas.");

@@ -1,15 +1,31 @@
 
 public class Produto {
     
-    String nome;
-    double preco;    
+    private String nome;
+    private double preco;
+
+public String getNome(){
+        return this.nome;
+    }
     
-    double diminuir10(){
+    public void setNome(String n) {
+        this.nome = n;
+    }
+
+public double getPreco(){
+        return this.preco;
+    }
+    
+    public void setPreco(double p) {
+        this.preco = p;
+    }    
+    
+    public double diminuir10(){
         double desconto = this.preco - (this.preco * 0.1);
         return desconto;
     }
     
-    double aumenta25(){
+    public double aumenta25(){
         double aumento = this.preco + (this.preco * 0.25);
         return aumento;        
     }
