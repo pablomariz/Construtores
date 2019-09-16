@@ -16,7 +16,6 @@ public class MainTemperatura {
         rFinal = fahrenheit.converterParaFahrenheit(fvalor);
         
         System.out.println(valor + " graus Fahrenheit é o mesmo que " + resultado + " graus Celsius.");  
-        System.out.println(fvalor + " graus Celsius é o mesmo que " + rFinal + " graus Fahrenheit.");
-        
+        System.out.println(fvalor + " graus Celsius é o mesmo que " + rFinal + " graus Fahrenheit."); 
     }
 }
