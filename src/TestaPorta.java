@@ -3,14 +3,10 @@ public class TestaPorta {
     
     public static void main(String[] args){
         
-        Porta p1 = new Porta();
-        p1.setCor("azul");
-        p1.abre();
-        p1.setDimensaoX(10);
-        p1.setDimensaoY(20);
-        p1.setDimensaoZ(30);
-        p1.pinta("vermelho");
+        Porta p1 = new Porta(true, "azul", 10, 20, 30);
         p1.fecha();
+        p1.pinta("vermelho");
+        p1.abre();
         p1.estaAberta();
         
         

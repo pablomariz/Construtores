@@ -4,6 +4,14 @@ public class Casa {
     private String cor;
     private int porta1, porta2, porta3;
     
+    public Casa(String c, int p1, int p2, int p3){
+        
+        this.setCor(c);
+        this.setPorta1(p1);
+        this.setPorta2(p2);
+        this.setPorta3(p3);
+    }
+    
     public String getCor(){
         return this.cor;
     }

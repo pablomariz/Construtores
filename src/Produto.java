@@ -3,6 +3,12 @@ public class Produto {
     
     private String nome;
     private double preco;
+    
+    public Produto(String n, double p){
+        
+        this.setNome(n);
+        this.setPreco(p);
+    }
 
 public String getNome(){
         return this.nome;

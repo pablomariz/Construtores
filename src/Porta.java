@@ -5,6 +5,15 @@ public class Porta {
     private String cor;
     private double dimensaoX, dimensaoY, dimensaoZ;
     
+    public Porta(boolean a, String c, double dx, double dy, double dz){
+        
+        this.setAberta(a);
+        this.setCor(c);
+        this.setDimensaoX(dx);
+        this.setDimensaoY(dy);
+        this.setDimensaoZ(dz);
+    }
+    
     public boolean getAberta(){
         return this.aberta;
     }

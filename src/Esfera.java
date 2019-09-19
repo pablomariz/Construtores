@@ -3,6 +3,11 @@ public class Esfera {
     
     private int raio;
     
+    public Esfera(int r){
+        
+        this.setRaio(r);
+    }
+    
     public int getRaio(){
         return this.raio;
     }
