@@ -3,9 +3,9 @@ public class TestaPorta {
     
     public static void main(String[] args){
         
-        Porta p1 = new Porta(true, "azul", 10, 20, 30);
+        Porta p1 = new Porta(true, "amarelo", 10, 20, 30);
         p1.fecha();
-        p1.pinta("vermelho");
+        p1.pinta("cinza");
         p1.abre();
         p1.estaAberta();
         

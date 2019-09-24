@@ -3,9 +3,9 @@ public class TestaProduto {
     
     public static void main (String[] args){
         
-        Produto p1 = new Produto("Produto 1", 50.0);        
+        Produto p1 = new Produto("Primeiro produto", 100.0);        
         
-        Produto p2 = new Produto("Produto 2", 29.99);
+        Produto p2 = new Produto("Segundo produto", 320.00);
         
         double desconto = p1.diminuir10();
         double aumento = p2.aumenta25();
